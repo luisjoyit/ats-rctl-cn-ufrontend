@@ -1,0 +1,15 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "target": "ES2015",
+    "jsx": "react-jsx",
+    "declarationDir": "dist"
+  },
+  "files": ["src/joyit-user-management.tsx"],
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"],
+  "baseUrl": ".",
+  "paths": {
+    "@/*": ["./*"]
+  }
+}
